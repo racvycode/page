@@ -1,0 +1,52 @@
+.navbar-toggler:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    /* text-decoration: ; */
+    color: black;
+}
+
+.todo-contenido {
+    /* height: 100vh;
+    overflow: auto;
+    padding-right: 1px; */
+}
+
+.bg-sections {
+    background: url('../../../assets/img/bg.jpg');
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.border-top-product {
+    padding-top: 0px;
+    border-top: none;
+}
+
+@media only screen and (max-width: 600px) {
+    /* .todo-contenido {
+        height: auto;
+    } */
+    .bg-sections {
+        background-size: 100% 100%;
+        /* height: auto; */
+    }
+    .border-top-product {
+        padding-top: 10px;
+        border-top: 1px solid #263238;
+    }
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
