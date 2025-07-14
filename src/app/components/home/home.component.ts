@@ -15,4 +15,9 @@ export class HomeComponent implements OnInit {
     },3000);
   }
 
+  // methotd year() {metodo to get current year}
+  getYear(): number {
+    return new Date().getFullYear();
+  }
+
 }
